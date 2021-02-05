@@ -1,0 +1,53 @@
+.wrapper.spotlight .skills-grid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10vh;
+}
+
+.wrapper.spotlight .skills-wrapper {
+  // height: 50px;
+  // width: 50px;
+  // display: flex;
+  // flex-direction: column;
+  // align-items: center;
+  // justify-content: center;
+  // margin: 100px 30px 100px 100px;
+  margin: auto;
+}
+
+.wrapper.spotlight .skills-image {
+  height: 120px;
+  width: 120px;
+  padding-bottom: 10px;
+}
+
+.wrapper.spotlight .skills-text {
+  text-align: center;
+  font-size: 4vh;
+  font-weight: 700;
+  color: #e7e7e7;
+}
+p {
+  margin: 0 0 2em;
+}
+
+.education{
+  margin-bottom: 2px;
+  font-weight: 700;
+}
+
+li{
+  margin-bottom: 15px;
+  margin-left: 15px;
+}
+
+.contact-buttons{
+  width: 60vw;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10%;
+  margin-left: 5vw;
+}
